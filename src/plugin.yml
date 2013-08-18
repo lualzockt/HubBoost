@@ -1,0 +1,10 @@
+name: HubBoost
+version: 1.0.0
+author: LualZockt
+main: com.lualzockt.HubBoost.HubBoost
+commands:
+  hubboost:
+    description: Main Hubbost command
+    usage: /<command> <create|delete|list|reload>
+    aliases: [hb]
+  
