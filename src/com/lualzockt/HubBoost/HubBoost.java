@@ -1,3 +1,25 @@
+//          This program is free software: you can redistribute it and/or modify
+//	    it under the terms of the GNU General Public License as published by
+//	    the Free Software Foundation, either version 3 of the License, or
+//	    (at your option) any later version.
+//
+//	    This program is distributed in the hope that it will be useful,
+//	    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	    GNU General Public License for more details.
+//
+//	    You should have received a copy of the GNU General Public License
+//	    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//
+//	    Dieses Programm ist Freie Software: Sie können es unter den Bedingungen
+//	    der GNU General Public License, wie von der Free Software Foundation,
+//	    Version 3 der Lizenz oder (nach Ihrer Wahl) jeder neueren
+//	    veröffentlichten Version, weiterverbreiten und/oder modifizieren.
+//
+//	    Dieses Programm wird in der Hoffnung, dass es nützlich sein wird, aber
+//	    OHNE JEDE GEWÄHRLEISTUNG, bereitgestellt; sogar ohne die implizite
+//	    Gewährleistung der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
+//	    Siehe die GNU General Public License für weitere Details.
 package com.lualzockt.HubBoost;
 
 
@@ -29,7 +51,7 @@ public class HubBoost extends JavaPlugin implements Listener{
 		Location  l = new Location(w,x,y,z);
 		return l;
 	}
-	public static final String PREFIX = "�8[�aHubBoost�8] �7 ";
+	public static final String PREFIX = "�8[�aHubBoost�8] �7 ";
 	float faktor = 4.0F;
 	Sound sound = Sound.EXPLODE;
 	float volume = 1f;
